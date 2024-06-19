@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* border: 1px solid black; */
+}
+
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F0F2F5;
+}
+
+.outer-box .inner-box {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+
+.outer-box .inner-box header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-box .inner-box header .brand-logo {
+    width: 240px;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-box .inner-box .main {
+    padding: 15px;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 5px 5px 10px #ccc;
+}
+
+.outer-box .inner-box .main main p {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 15px 0;
+}
+
+.outer-box .inner-box .main main input {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.outer-box .inner-box .main main input[type=button] {
+    border: none;
+    height: 50px;
+    font-size: 1.5rem;
+    padding: 0;
+    font-weight: 600;
+    color: white;
+    background-color: #1877F2;
+}
+
+.outer-box .inner-box .main main input:focus {
+    outline: #ccc;
+}
+
+.outer-box .inner-box .main footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.outer-box .inner-box .main footer a {
+    color: #1877F2;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
